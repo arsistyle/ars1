@@ -1,0 +1,16 @@
+// Colores
+
+$primary: getColor('amber','a400');
+$secondary: getColor('purple','a700');
+$tertiary: getColor('grey','800');
+
+// Colores textos
+$color-h: getColor('grey','800');
+$color-p: getColor('grey','700');
+$color-li: getColor('grey','600');
+$color-bq: getColor('grey','700');
+
+color{
+	uno: $primary;
+	dos: $secondary;
+}

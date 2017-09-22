@@ -1,0 +1,18 @@
+$breakpoints: (
+  sm-mw: 'max-width:575px',
+  sm: 'min-width:576px',
+  md-mw: 'max-width:767px',
+  md: 'min-width:768px',
+  lg-mw: 'max-width:992px',
+  lg: 'min-width:992px',
+  xl-mw: 'max-width:1199px',
+  xl: 'min-width:1200px',
+  xxl-mw: 'max-width:1919px',
+  xxl: 'min-width:1920px'
+);
+
+@mixin break($size) {
+  @media (map-get($breakpoints, $size)) {
+    @content;
+  }
+}
