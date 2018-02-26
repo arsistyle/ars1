@@ -1,0 +1,46 @@
+/*
+
+	Name: Ars1
+	Author: Arsi Larrondo
+	Author Web: arsi.cl
+	Version: 1.0.0
+
+*/
+
+/*
+
+************ ¡ A T E N C I Ó N ! / ¡ W A R N I N G ! *************
+- Hoja de estilos creada con SASS, No modificar. / StyleSheet created with SASS, Don´t modify.
+
+*/
+
+@import 'config';
+
+// Helpers
+@import 'helpers/functions';
+@import 'helpers/colors';
+@import 'helpers/variables';
+@import 'helpers/mediaqueries';
+@import 'helpers/mixins';
+
+// External
+@import 'external/normalize';
+@import 'external/magnific-popup';
+
+// Structure
+@import 'structure/columns';
+
+// Base
+@import 'base/general';
+@import 'base/typography';
+@import 'base/utilities';
+
+// Components
+@import 'components/btns';
+@import 'components/forms';
+@import 'components/tables';
+@import 'components/alerts';
+//@import 'components/desplegables';
+//@import 'components/tabs';
+//@import 'components/alerta-navegador';
+

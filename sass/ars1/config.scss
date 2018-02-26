@@ -1,0 +1,33 @@
+//-------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------
+// Configuración de importación,
+// se debe poner true o false para cargar los archivos
+//-------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------
+
+
+// Archivos Externos
+
+//-- Cargar Magnific popup
+$magnific-popup: false;
+
+
+// Archivos de componentes
+
+//-- Cargar elementos de formularios
+$forms: true;
+
+//-- Cargar tablas
+$tables: true;
+
+//-- Cargar alertas
+$alerts: true;
+
+//-- Cargar desplegables
+$accordion: true;
+
+//-- Cargar tabs
+$tabs: true;
+
+//-- Cargar lightboxs
+$lightboxs: true;

@@ -1,0 +1,136 @@
+// html {
+//   -ms-text-size-adjust: 100%;
+//   -webkit-text-size-adjust: 100%;
+//   -webkit-tap-highlight-color: transparent;
+// }
+
+body {
+  font: 62.5% Arial, Helvetica, sans-serif;
+  // margin: 0;
+  // padding: 0;
+}
+
+// div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, span
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+// [hidden] {
+//   display: none !important;
+// }
+
+// table {
+//   border-collapse: collapse;
+//   border-spacing: 0;
+//   width: 100%;
+// }
+
+textarea {
+  resize: vertical;
+}
+
+fieldset, img, abbr, acronym {
+  border: 0;
+}
+
+address, caption, pre, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul, dl {
+  list-style: none;
+}
+
+caption {
+  text-align: left;
+}
+
+img {
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+// a {
+//   outline: none;
+// }
+
+// input, select, textarea {
+//   font-family: Arial, Helvetica, sans-serif;
+// }
+
+/* CLEARFIX ***********************/
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  display: inline-block;
+}
+
+/*\*/
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+/**/
+/**********************************/
+
+/* ALERTA PHP *********************/
+
+/*.alerta_php {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 24px;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  z-index: 100000;
+  margin-bottom: 10px;
+  &.principal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.7) !important;
+  }
+}*/
+
+/**********************************/
+
+/*.solo-impresion {
+  display: none !important;
+}
+
+@media print {
+  body {
+    font-family: Arial, Helvetica, sans-serif !important;
+    * {
+      font-family: Arial, Helvetica, sans-serif !important;
+    }
+  }
+  .no-imprimir {
+    display: none !important;
+  }
+  .solo-impresion {
+    display: block !important;
+  }
+}*/

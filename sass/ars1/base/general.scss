@@ -1,0 +1,42 @@
+//** Configuración General **//
+*{
+	box-sizing: border-box;
+}
+
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+body{
+	font: 62.5% $general-font,	sans-serif;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.space{
+	height: 30px;
+	&--ultra{
+		height: 160px;
+	}
+	&--big{
+		height: 60px;
+	}
+	&--small{
+		height: 20px;
+	}
+	&--xsmall{
+		height: 10px;
+	}
+}
+
+.dynamic-content {
+	img{
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+}
+::selection{
+	color: $t-seleccion;
+	background: $bg-seleccion;
+}
